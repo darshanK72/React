@@ -1,0 +1,31 @@
+.box{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.button-box{
+    width: 100vw;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    /* width: 30%; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0.3rem;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.btn{
+    padding: 6px 12px;
+    color: black;
+    font-weight: 700;
+    border-radius: 12px;
+    margin: 0.5rem;
+    border: 2px solid black;
+}
