@@ -1938,7 +1938,7 @@ function App() {
           {products.map((product) => (
             <Card>
               <Product
-                key={product.id}
+                key={product.id} // Key Prop important
                 thumbnail={product.thumbnail}
                 title={product.title}
                 price={product.price}
