@@ -47,7 +47,12 @@ function App() {
                 }}
               />
               <div className="middle d-flex justify-content-center mt-4 mb-3">
-                <button className="btn btn-primary">
+                <button className="btn btn-primary" onClick={() => {
+                  setAmount(convertedAmount);
+                  setConvertedAmount(amount);
+                  setFrom(to);
+                  setTo(from);
+                }}>
                   <IoSwapVerticalSharp />
                 </button>
               </div>
