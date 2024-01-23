@@ -1,12 +1,20 @@
 import React from "react";
+import { Suspense } from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
 import App from "./App.jsx";
-import About from "./Components/About/About.jsx";
+// import About from "./Components/About/About.jsx";
 import Home from "./Components/Home/Home.jsx";
 import Search from "./Components/Search/Search.jsx";
 import User from "./Components/User/User.jsx";
 import "./index.css";
+
+const About = React.lazy(() => import("./Components/About/About.jsx"));
 
 // const router = createBrowserRouter([
 //   {
@@ -21,17 +29,29 @@ import "./index.css";
 //   },
 // ]);
 
-
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App/>}>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/home" element={<Home/>}/>
-      <Route path="/search" element={<Search/>}/>
-      <Route path="/user/:userId" element={<User/>}/>
-    </Route> 
+    <Route path="/" element={<App />}>
+      <Route
+        path="/about"
+        element={
+          <Suspense
+            fallback={
+              <div>
+                <h1>Loading....</h1>
+              </div>
+            }
+          >
+            <About />
+          </Suspense>
+        }
+      />
+      <Route path="/home" element={<Home />} />
+      <Route path="/search" element={<Search />} />
+      <Route path="/user/:userId" element={<User />} />
+    </Route>
   )
-)
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
