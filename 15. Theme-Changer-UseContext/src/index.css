@@ -1,0 +1,21 @@
+body {
+    background-color: transparent;
+}
+
+.dark body {
+    background-color: rgb(32, 33, 36);
+}
+
+.light body {
+    background-color: white;
+}
+
+.dark .card {
+    color: rgb(245, 245, 245);
+    background-color: rgb(60, 64, 66);
+}
+
+.light .card {
+    color: rgb(32, 33, 36);
+    background-color: rgb(245, 245, 245);
+}

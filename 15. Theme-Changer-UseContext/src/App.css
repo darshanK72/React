@@ -1,0 +1,12 @@
+.card img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.light .form-check-label{
+    color: black;
+}
+
+.dark .form-check-label{
+    color: white;
+}
