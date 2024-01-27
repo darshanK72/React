@@ -1,0 +1,174 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Smith",
+        "gender": "Male",
+        "dateOfBirth": "1997-12-11",
+        "course": "B.E. Mechanical",
+        "grades": 87.23322,
+        "examFees": 1200
+      },
+      {
+        "id": 2,
+        "firstName": "Mark",
+        "lastName": "Vought",
+        "gender": "Male",
+        "dateOfBirth": "1998-11-07",
+        "course": "B.Tech Computer Science",
+        "grades": 87.23322,
+        "examFees": 1000
+      },
+      {
+        "id": 3,
+        "firstName": "Seraha",
+        "lastName": "King",
+        "gender": "Female",
+        "dateOfBirth": "1997-12-11",
+        "course": "B.E. Electrical",
+        "grades": 92.5122,
+        "examFees": 800
+      },
+      {
+        "id": 4,
+        "firstName": "John",
+        "lastName": "Smith",
+        "gender": "Male",
+        "dateOfBirth": "1997-12-11",
+        "course": "B.E. Mechanical",
+        "grades": 87.23322,
+        "examFees": 1200
+      },
+      {
+        "id": 5,
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "gender": "Female",
+        "dateOfBirth": "1998-06-24",
+        "course": "B.E. Computer Science",
+        "grades": 92.541234,
+        "examFees": 1201
+      },
+      {
+        "id": 6,
+        "firstName": "Michael",
+        "lastName": "Johnson",
+        "gender": "Male",
+        "dateOfBirth": "1996-09-02",
+        "course": "B.E. Electrical",
+        "grades": 78.123456,
+        "examFees": 1202
+      },
+      {
+        "id": 7,
+        "firstName": "Sarah",
+        "lastName": "Brown",
+        "gender": "Female",
+        "dateOfBirth": "1999-03-16",
+        "course": "B.E. Civil",
+        "grades": 85.678901,
+        "examFees": 1203
+      },
+      {
+        "id": 8,
+        "firstName": "David",
+        "lastName": "Williams",
+        "gender": "Male",
+        "dateOfBirth": "1995-02-07",
+        "course": "B.E. Chemical",
+        "grades": 90.987654,
+        "examFees": 1204
+      },
+      {
+        "id": 9,
+        "firstName": "Jessica",
+        "lastName": "Lee",
+        "gender": "Female",
+        "dateOfBirth": "1997-07-29",
+        "course": "B.E. Aerospace",
+        "grades": 88.345678,
+        "examFees": 1205
+      },
+      {
+        "id": 10,
+        "firstName": "Christopher",
+        "lastName": "Taylor",
+        "gender": "Male",
+        "dateOfBirth": "1998-10-10",
+        "course": "B.E. Biomedical",
+        "grades": 76.789012,
+        "examFees": 1206
+      },
+      {
+        "id": 11,
+        "firstName": "Emily",
+        "lastName": "Smith",
+        "gender": "Female",
+        "dateOfBirth": "1998-01-27",
+        "course": "B.E. Industrial",
+        "grades": 93.456789,
+        "examFees": 1207
+      },
+      {
+        "id": 12,
+        "firstName": "Matthew",
+        "lastName": "Brown",
+        "gender": "Male",
+        "dateOfBirth": "1996-04-13",
+        "course": "B.E. Mechanical",
+        "grades": 81.234567,
+        "examFees": 1208
+      },
+      {
+        "id": 13,
+        "firstName": "Olivia",
+        "lastName": "Johnson",
+        "gender": "Female",
+        "dateOfBirth": "1998-08-21",
+        "course": "B.E. Computer Science",
+        "grades": 89.012345,
+        "examFees": 1209
+      },
+      {
+        "id": 14,
+        "firstName": "Merry",
+        "lastName": "Jane",
+        "gender": "Female",
+        "dateOfBirth": "1991-07-06",
+        "course": "B. Science",
+        "grades": 85.6,
+        "examFees": 2100
+      },
+      {
+        "id": 15,
+        "firstName": "Steve",
+        "lastName": "Smith",
+        "gender": "Male",
+        "dateOfBirth": "1994-04-20",
+        "course": "M.Com",
+        "grades": 57.6342,
+        "examFees": 900
+      },
+      {
+        "id": 17,
+        "firstName": "Angilo",
+        "lastName": "Mathues",
+        "gender": "Male",
+        "dateOfBirth": "1997-06-18",
+        "course": "B.E. Biotechnology",
+        "grades": 81,
+        "examFees": 200
+      },
+      {
+        "id": 18,
+        "firstName": "John",
+        "lastName": "Walter",
+        "gender": "Male",
+        "dateOfBirth": "1992-08-02",
+        "course": "B.E. Mechanical",
+        "grades": 94.1242,
+        "examFees": 700
+      }
+    ]
+  }
