@@ -1,0 +1,26 @@
+.todo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo .buttons{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.todo .title{
+    width: 30%;
+}
+
+.todo .date{
+    width: 30%;
+}
+
+.completed {
+    background-color: rgb(179, 243, 179);
+}
